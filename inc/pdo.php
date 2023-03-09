@@ -2,9 +2,9 @@
 /*
 * Connexion à la base de donnée
 */
-$dsn = 'mysql:host=bsd;dbname=netflix';
+$dsn = 'mysql:host=localhost;dbname=netflix';
 $useDbName = 'root';
-$userDbPassword = 'pluton';
+$userDbPassword = '';
 
 try {
     $conn = new PDO(

@@ -167,7 +167,7 @@ function error404(): void
 
 function redirectUrl(string $path = ''): void
 {
-   $homeUrl = 'http://' . $_SERVER['HTTP_HOST']. '/movies2moi' ;
+   $homeUrl = 'http://' . $_SERVER['HTTP_HOST']. '/movies2' ;
    $homeUrl .= '/'. $path;
    header("Location: {$homeUrl}");
    exit();
