@@ -56,7 +56,7 @@ endif;
             </div>
             <div>
                 <label for="pwd">Mot de passe</label>
-                <input type="password" name="pwd" id="pwd">
+                <input type="password" name="pwd" id="pwd" >
             </div>
             <div>
                 <input type="submit" value="Connexion">

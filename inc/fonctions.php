@@ -145,6 +145,7 @@ function insertUser(string $login, string $email, string $pwd): int
    $resultat->bindValue(':email', $email, PDO::PARAM_STR);
    $resultat->bindValue(':pwd', $pwdHashe, PDO::PARAM_STR);
    $resultat->execute();
+   dd($conn->lastInsertId());
    return $conn->lastInsertId();
 }
 

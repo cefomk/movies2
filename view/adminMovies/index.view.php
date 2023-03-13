@@ -19,6 +19,7 @@
       <header class="header">
          <h1>Gestion des films</h1>
          <p><a href="./ajout.php" role="button">Ajouter un film</a></p>
+         <p><a href="../login/deconnexion.php" role="button">Deconnexion</a></p>
       </header>
       <table>
          <thead>

@@ -4,10 +4,6 @@
 */
 session_start();
 include '../inc/fonctions.php';
-if (!isUserLogin()) :
-endif;
-
-getUserAll();
 
 $limit = 10;
 $offset = 0;
